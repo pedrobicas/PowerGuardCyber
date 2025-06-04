@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.dbmdl
+*.bak
+*.tmp
+TestResults/
+*.ncrunch*
+_ReSharper*/

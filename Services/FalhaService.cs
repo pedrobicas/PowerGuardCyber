@@ -1,0 +1,16 @@
+﻿using System;
+using FalhasEnergiaCiber.Models;
+
+namespace FalhasEnergiaCiber.Services
+{
+    public class FalhaService
+    {
+        public FalhaEnergia CriarFalha(DateTime data, string descricao, int duracao)
+        {
+            if (duracao <= 0)
+                throw new ArgumentException("Duração deve ser positiva.");
+
+            return new FalhaEnergia(data, descricao, duracao);
+        }
+    }
+}
