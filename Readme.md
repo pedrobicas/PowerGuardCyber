@@ -1,5 +1,10 @@
 ﻿# Projeto – PowerGuardCyber - 
-  
+
+## 👥 Equipe
+- Felipe Terra - RM99405
+- Gabriel Freitas - RM550187
+- Pedro Bicas - RM99534
+
 ## 📌 Finalidade do Sistema 
   
 O sistema **PowerGuardCyber** foi desenvolvido para monitorar falhas de energia e alertas de segurança relacionados a impactos cibernéticos em ambientes críticos. A aplicação visa simular cenários reais de vulnerabilidade quando há quedas de energia, permitindo o registro de eventos, alertas e a geração de relatórios. 
