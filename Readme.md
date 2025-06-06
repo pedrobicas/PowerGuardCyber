@@ -1,4 +1,4 @@
-# Projeto – PowerGuardCyber - 
+﻿# Projeto – PowerGuardCyber - 
   
 ## 📌 Finalidade do Sistema 
   
@@ -13,13 +13,14 @@ O sistema **PowerGuardCyber** foi desenvolvido para monitorar falhas de energia 
 2. **Como rodar:** 
    - Clone o repositório: 
      ```bash 
-     git clone https://github.com/pedrobicas/PowerGuardCyber.git
+     git clone https://github.com/seuusuario/PowerGuideCyber.git 
      ``` 
    - Navegue até a pasta do projeto: 
      ```bash 
-     cd PowerGuardCyber 
+     cd FalhasEnergiaCiber 
      ``` 
    - Compile e execute: 
+   - 
      ```bash 
      dotnet run 
      ``` 
@@ -37,7 +38,7 @@ Nota: Este projeto não utiliza bibliotecas externas. Todos os recursos são imp
   
 ## 📂 Estrutura de Pastas 
   
-PowerGuardCyber/ 
+FalhasEnergiaCiber/ 
 ├── Program.cs 
 ├── GerenciadorEventos.cs 
 ├── Models/ 

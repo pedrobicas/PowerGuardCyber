@@ -2,6 +2,7 @@
 
 namespace FalhasEnergiaCiber.Models
 {
+    // Representa um evento de falha de energia
     public class FalhaEnergia : Evento
     {
         public int DuracaoMinutos { get; set; }
@@ -12,6 +13,7 @@ namespace FalhasEnergiaCiber.Models
             DuracaoMinutos = duracao;
         }
 
+        // Exibe detalhes da falha, incluindo duração
         public override void ExibirDetalhes()
         {
             base.ExibirDetalhes();

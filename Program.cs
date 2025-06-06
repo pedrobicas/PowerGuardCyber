@@ -6,13 +6,16 @@ namespace FalhasEnergiaCiber
     {
         static void Main(string[] args)
         {
+            // Inicializa o gerenciador de eventos do sistema
             GerenciadorEventos sistema = new GerenciadorEventos();
             string opcao;
 
+            // Simulação simples de login (sem validação real)
             Console.WriteLine("SISTEMA DE MONITORAMENTO - LOGIN");
             Console.Write("Usuário: "); Console.ReadLine();
-            Console.Write("Senha: "); Console.ReadLine();
+            Console.Write("Senha:"); Console.ReadLine();
 
+            // Loop do menu principal
             do
             {
                 Console.WriteLine("\n==== MENU ====");
@@ -25,6 +28,7 @@ namespace FalhasEnergiaCiber
                 Console.Write("Opção: ");
                 opcao = Console.ReadLine();
 
+                // Executa a funcionalidade escolhida
                 switch (opcao)
                 {
                     case "1": sistema.RegistrarFalha(); break;

@@ -5,6 +5,7 @@ namespace FalhasEnergiaCiber.Services
 {
     public class FalhaService
     {
+        // Cria uma instância de FalhaEnergia com validação da duração
         public FalhaEnergia CriarFalha(DateTime data, string descricao, int duracao)
         {
             if (duracao <= 0)

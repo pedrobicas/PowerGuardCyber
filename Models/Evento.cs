@@ -2,6 +2,7 @@
 
 namespace FalhasEnergiaCiber.Models
 {
+    // Classe base para todos os tipos de eventos
     public class Evento
     {
         public DateTime Data { get; set; }
@@ -15,9 +16,10 @@ namespace FalhasEnergiaCiber.Models
             Tipo = tipo;
         }
 
+        // Exibe informações básicas do evento
         public virtual void ExibirDetalhes()
         {
-            Console.WriteLine($"[{Tipo}] {Data:dd/MM/yyyy}: {Descricao}");
+            Console.WriteLine($"[{Tipo}] {Data}: {Descricao}");
         }
     }
 }

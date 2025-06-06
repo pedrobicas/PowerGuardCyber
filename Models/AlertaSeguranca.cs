@@ -2,6 +2,7 @@
 
 namespace FalhasEnergiaCiber.Models
 {
+    // Representa um evento de alerta de segurança
     public class AlertaSeguranca : Evento
     {
         public string NivelCriticidade { get; set; }
@@ -12,6 +13,7 @@ namespace FalhasEnergiaCiber.Models
             NivelCriticidade = nivel;
         }
 
+        // Exibe detalhes do alerta, incluindo o nível de criticidade
         public override void ExibirDetalhes()
         {
             base.ExibirDetalhes();

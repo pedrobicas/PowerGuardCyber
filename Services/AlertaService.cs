@@ -5,6 +5,7 @@ namespace FalhasEnergiaCiber.Services
 {
     public class AlertaService
     {
+        // Cria uma instância de AlertaSeguranca com validação do nível
         public AlertaSeguranca CriarAlerta(DateTime data, string descricao, string nivel)
         {
             if (string.IsNullOrEmpty(nivel))

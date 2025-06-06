@@ -10,6 +10,7 @@ namespace FalhasEnergiaCiber
         private List<Evento> eventos = new List<Evento>();
         private RelatorioService relatorioService = new RelatorioService();
 
+        // Registra uma nova falha de energia
         public void RegistrarFalha()
         {
             try
@@ -34,6 +35,7 @@ namespace FalhasEnergiaCiber
             }
         }
 
+        // Registra um novo alerta de segurança
         public void RegistrarAlerta()
         {
             try
@@ -56,6 +58,7 @@ namespace FalhasEnergiaCiber
             }
         }
 
+        // Exibe todos os eventos registrados
         public void ListarEventos()
         {
             Console.WriteLine("\n==== EVENTOS REGISTRADOS ====");
@@ -66,6 +69,7 @@ namespace FalhasEnergiaCiber
             Console.WriteLine("=============================\n");
         }
 
+        // Simula um ataque caso haja falhas de energia registradas
         public void SimularAtaque()
         {
             Console.WriteLine("Simulando ataque cibernético durante apagão...");
@@ -80,6 +84,7 @@ namespace FalhasEnergiaCiber
             }
         }
 
+        // Gera um relatório e oferece opção de exportação
         public void GerarRelatorio()
         {
             relatorioService.GerarRelatorio(eventos);

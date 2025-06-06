@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A93D2E7-9C65-462E-9433-9D6C6716EF69}</ProjectGuid>
+    <ProjectGuid>{173CE915-8C4F-414F-901D-C2D9C23DD888}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GS_C_</RootNamespace>
-    <AssemblyName>GS_C#</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -57,6 +57,5 @@
     <None Include="App.config" />
     <None Include="Readme.md" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
